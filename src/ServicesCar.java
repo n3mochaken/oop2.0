@@ -7,8 +7,8 @@ public class ServicesCar implements ServiceStation {
             car.updateTyre();
         }
         car.checkEngine();
-    }
 
+    }
     @Override
     public void check(Truck truck) {
         System.out.println("Обслуживаем " + truck.getModelName());
@@ -26,5 +26,6 @@ public class ServicesCar implements ServiceStation {
             bicycle.updateTyre();
         }
     }
+
 }
 
