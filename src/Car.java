@@ -1,17 +1,11 @@
-public class Car extends Vehicle {
+public class Car extends MotorVehicle {
 
 
     public Car(String modelName, int wheelsCount) {
-        super(modelName, wheelsCount);
+        super(modelName, 4);
     }
 
-    @Override
-    public void updateTyre() {
-        System.out.println("Меняем покрышку легковушке");
-    }
 
-    @Override
-    public void checkEngine() {
-        System.out.println("Проверяем двигатель легковой");
-    }
+
+
 }
